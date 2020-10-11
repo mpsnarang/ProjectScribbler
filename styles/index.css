@@ -3,7 +3,21 @@ html{
     width:100%
 }
 
-.yellow-button{
+body{
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin: 0 !important;
+    background-size: 100% cover!important;
+    overflow:hidden;
+    display: block;
+    height: 100%;
+}
+
+
+.class-yellow-button{
     background-color: yellow;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -14,7 +28,7 @@ html{
     font-size: 14px;
     margin-left: 10px
 }
-.postButtons{
+.class-postButtons{
     display: flex;
     height: 100%;
     width: 100%;
@@ -34,7 +48,7 @@ textarea{
     align-self: center;
     font-family: Abel;
 }
-.post-modal-content{
+.class-post-modal-content{
     background-color: #fefefe;
     margin: auto;
     padding: 20px;

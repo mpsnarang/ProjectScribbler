@@ -30,12 +30,14 @@
 }
 
 .post-title{
-    font-family: 'Itim', cursive;
-    font-weight: bold;
-    color: #2b312b;
-    font-size: 25px;
-    height: 25px;
+    font-family: Arial;
+    /* font-weight: bold; */
+    color: #4e514e;
+    font-size: 20px;
+    height: 30px;
     overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .post-more {

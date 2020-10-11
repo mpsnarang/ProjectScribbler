@@ -10,18 +10,18 @@ html{
     margin: 10px;
 }
 
-body{
-    background: url('../images/background.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    margin: 0 !important;
-    background-size: 100% cover!important;
-    overflow:hidden;
-    display: block;
-    height: 100%;
-}
+/*body{*/
+/*    background: url('../images/background.jpg');*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*    background-position: center center;*/
+/*    background-size: cover;*/
+/*    margin: 0 !important;*/
+/*    background-size: 100% cover!important;*/
+/*    overflow:hidden;*/
+/*    display: block;*/
+/*    height: 100%;*/
+/*}*/
 
 form {
     display: flex;
