@@ -3,7 +3,7 @@ html{
     width:100%
 }
 
-.header{
+.div-header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -23,7 +23,30 @@ body{
     height: 100%;
 }
 
-#div-main-container{
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    outline: none;
+    font-family: Abel;
+}
+
+.close {
+    display: flex;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.class-label-text {
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: Abel;
+}
+
+#class-div-main-container{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -31,20 +54,20 @@ body{
     width: 100%;
 }
 
-.title-container{
+.class-title-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.title{
+.class-title{
     font-family: 'Montez', cursive;
     font-size: 30px;
     color: blue;
     margin: 0;
 }
 
-.sub-title{
+.class-sub-title{
     font-family: 'Ubuntu Mono';
     font-size: 15px;
     color: black;
@@ -67,7 +90,7 @@ body{
     color: black;
 }
 
-.blue-button{
+.class-blue-button{
     background-color: blue;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -78,7 +101,7 @@ body{
     font-size: 14px;
 }
 
-.modal-title{
+.class-modal-title{
     align-self: center;
     font-family: Abel;
 }
@@ -94,4 +117,31 @@ body{
     padding: 20px;
     border: 1px solid #888;
     width: 40%;
+}
+
+.class-login-buttons-container{
+    padding: 10px;
+}
+
+.class-signin-btn {
+    background-color: green;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Abel;
+}
+
+.class-signup{
+    color: blue;
+    font-weight: bolder;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: Abel;
+}
+
+.class-bottom-banner{
+    font-family: Abel;
 }
