@@ -35,9 +35,10 @@
     color: #4e514e;
     font-size: 20px;
     height: 30px;
-    overflow: auto;
+    overflow: hidden;
     padding-top: 5px;
     padding-bottom: 5px;
+    text-overflow: ellipsis;
 }
 
 .post-more {
@@ -51,7 +52,7 @@
 }
 
 .post-desc{
-    height: 85px;
+    height: 75px;
     margin-bottom: 0 !important;
     overflow: hidden;
 }

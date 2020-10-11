@@ -43,7 +43,7 @@
     font-size: 14px;
     display:table-cell;
     text-align: center;
-    width:70px;
+    width: 100%;
 }
 .postLike{
     color:white;
