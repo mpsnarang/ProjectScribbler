@@ -9,3 +9,44 @@ html {
     -o-background-size: cover;
     background-size: cover;
 }
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.class-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.class-title{
+    font-family: 'Montez', cursive;
+    font-size: 30px;
+    color: blue;
+    margin: 0;
+}
+
+.class-sub-title{
+    font-family: 'Ubuntu Mono';
+    font-size: 15px;
+    color: black;
+    margin: 0;
+}
+
+.class-login-buttons-container{
+    padding: 10px;
+}
+
+.class-blue-button{
+    background-color: blue;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left:5px;
+    color:white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 14px;
+}
